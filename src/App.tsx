@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./home/Home";
 import About from "./home/About";
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/firebase" element={<Products />} />
       </Routes>
     </BrowserRouter>
   );

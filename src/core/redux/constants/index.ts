@@ -3,3 +3,7 @@ export enum CountType {
   DECREASE = "decrease",
   RESET = "reset",
 }
+
+export enum MobileConsTant {
+  SET_DATA = "set-data",
+}
